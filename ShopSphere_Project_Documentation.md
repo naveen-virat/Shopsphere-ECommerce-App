@@ -1,107 +1,41 @@
 # SHOPSPHERE - E-COMMERCE APPLICATION
-## Project Documentation
-
----
-
-# VISION AND MISSION OF THE INSTITUTE
-
-## VISION
-
-Carving the youth as dynamic, complement, valued and knowledgeable professionals who shall lead the nation to a better future.
-
-## MISSION
-
-* Providing quality education, Student – Centered teaching – Learning process and state - of – art infrastructure for professional aspirants hailing from both rural and urban areas.
-* Impacting technical and management education to encourage independent thinking, develop strong domain of knowledge, own contemporary skills and positive attitudes towards holistic growth of young minds.
-* Evolving institution into a center of excellence and research.
-
-## QUALITY POLICIES
-
-Sri Venkateswara College Of Engineering And Technology strides towards excellence by adopting a system of quality policies and processes with continued improvements to enhance student skills and talent for their exemplary contribution to the society, the nation and the world.
-
----
-
-# VISION AND MISSION OF THE DEPARTMENT
-## Under R20 Regulations
-
-### VISION:
-
-* To achieve excellent standard of quality education by using latest tools in Artificial Intelligence and disseminating innovations to relevant areas.
-
-### MISSION
-
-* To develop professionals who are skilled in Artificial Intelligence.
-* Impact rigorous training to generate knowledge through the state -of -the – art concepts and technologies in Artificial Intelligence.
-* Establish centers of excellence in leading areas of computing and artificial intelligence to inculcate strong commitment to work with a commitment to the progress of the nation.
-
-### PROGRAM EDUCATIONAL OBJECTIVES (PEOs):
-
-**PEO1:**
-To be able to solve wide range of computing related problems to cater to the needs of industry and society.
-
-**PEO2:**
-Enable students to build intelligent machines and applications with a cutting – edge combinations of machine learning, analytics, and visualization.
-
-**PEO3:**
-Produce graduates having professional competence through life-long learning such as advanced degrees, professional skills and other professional activities related globally to engineering & society.
-
-### PROGRAM SPECIFIC OUTCOMES (PSOs):
-
-**PSO1:**
-Should have an ability to apply technical knowledge and usage of modern hardware and software tools related AI for solving real world problems.
-
-**PSO2:**
-Should have the capability to develop many successful applications based on machine learning methods, AI methods in different fields, including neural networks, signal processing, and data mining.
-
----
-
-# CERTIFICATE
-
-*This certifies that the project work titled "ShopSphere - E-Commerce Application with Spring Boot & MongoDB" has been successfully completed as part of the internship program*
-
----
-
-# ACKNOWLEDGEMENT
-
-A grateful thanks to **Dr. Ravuri Venkata Swamy**, Chairman of Sri Venkateswara College of Engineering & Technology for providing education in their esteemed institution.
-
-I wish to record my deep sense of gratitude and profound thanks to our beloved Vice Chairman, **Sri Ravuri Venkata Srinivas** for his valuable support throughout the course.
-
-I express our sincere thanks to **Dr. M. MOHAN BABU**, our beloved principal for his encouragement and suggestion during the course of study.
-
-With the deep sense of gratefulness, I acknowledge **Dr. M. LAVANYA**, Head of the Department, Computer Science Engineering (AI), for giving us inspiring guidance in undertaking this internship.
-
-I express our sincere thanks to the **Dr. K. ANJANEYULU**, internship coordinator, for his keen interest, stimulating guidance, constant encouragement with our work during all stages, to bring this report into fruition.
-
-Finally, I would like to express my sincere thanks to all teaching, non-teaching faculty members, our parents, friends and for all those who have supported us to complete the internship successfully.
-
-**Name:** Ramisetty Divyasree  
-**Roll No:** 22781A3137
-
----
-
-# ABSTRACT
-
-Java is a versatile, object-oriented programming language widely used in developing platform-independent applications. Known for its "Write Once, Run Anywhere" capability, Java has become a cornerstone for building scalable, secure, and high-performance applications.
-
-ShopSphere is a comprehensive E-Commerce application built using Spring Boot and MongoDB that demonstrates enterprise-level software development practices. This project implements a complete shopping platform with both CLI (Command Line Interface) and REST API capabilities, featuring product management, user authentication, shopping cart functionality, and order processing.
-
-The application leverages Spring Boot's powerful framework for rapid development, MongoDB for flexible NoSQL data storage, and Swagger for comprehensive API documentation. Through its implementation of CRUD operations, user management, cart handling, and order workflows, ShopSphere showcases modern software engineering principles including MVC architecture, RESTful API design, and database integration.
-
-This project serves as a practical demonstration of building scalable, maintainable e-commerce systems using Java ecosystem technologies, preparing students for real-world enterprise application development challenges.
-
----
 
 # TABLE OF CONTENTS
 
-## CHAPTER 1: PROJECT OVERVIEW
+## CHAPTER 1: GETTING STARTED WITH JAVA
+* Introduction to Java Development
+* Installing Java
+* What is Java?
+* Key Features of Java
+
+## CHAPTER 2: JAVA FUNDAMENTALS
+* Variables and Data Types
+* Taking User Input
+* Operators in Java
+* Conditional Statements
+* Loops (Iterators)
+* Arrays
+* Strings
+* Methods in Java
+* Exception Handling
+
+## CHAPTER 3: OBJECT-ORIENTED PROGRAMMING
+* Classes and Objects
+* Constructors
+* Getters and Setters
+* Inheritance
+* Polymorphism
+* Abstract Classes and Methods
+* Interfaces
+
+## CHAPTER 4: PROJECT OVERVIEW
 * Introduction
 * Project Features
 * Technologies Used
 * System Architecture
 * Prerequisites
 
-## CHAPTER 2: PROJECT STRUCTURE AND DESIGN
+## CHAPTER 5: PROJECT STRUCTURE AND DESIGN
 * Project Structure
 * Database Schema Design
 * Model Classes
@@ -109,7 +43,7 @@ This project serves as a practical demonstration of building scalable, maintaina
 * Service Layer
 * Controller Layer
 
-## CHAPTER 3: IMPLEMENTATION
+## CHAPTER 6: IMPLEMENTATION
 * Application Setup
 * Configuration Files
 * Core Modules Implementation
@@ -118,20 +52,20 @@ This project serves as a practical demonstration of building scalable, maintaina
 * Shopping Cart Module
 * Order Management Module
 
-## CHAPTER 4: FUNCTIONALITY AND FEATURES
+## CHAPTER 7: FUNCTIONALITY AND FEATURES
 * CLI Interface
 * REST API Endpoints
 * Swagger Documentation
 * Data Validation
 * Error Handling
 
-## CHAPTER 5: TESTING AND DEPLOYMENT
+## CHAPTER 8: TESTING AND DEPLOYMENT
 * Running the Application
 * Testing Procedures
 * Sample Inputs and Outputs
 * Troubleshooting
 
-## CHAPTER 6: CONCLUSION AND FUTURE SCOPE
+## CHAPTER 9: CONCLUSION AND FUTURE SCOPE
 * Conclusion
 * Lessons Learned
 * Future Enhancements
@@ -206,7 +140,689 @@ This project serves as a practical demonstration of building scalable, maintaina
 
 ---
 
-# CHAPTER 1: PROJECT OVERVIEW
+# CHAPTER 1: GETTING STARTED WITH JAVA
+
+## Introduction to Java Development
+
+The Java Development Kit (JDK) is software used for Java programming, along with the Java Virtual Machine (JVM) and the Java Runtime Environment (JRE). The JDK includes the compiler and class libraries, allowing developers to create Java programs executable by the JVM and JRE.
+
+### Prerequisites
+
+* A system running Windows 10 or higher
+* A network connection
+* Administrator privileges
+
+### Installing Java on Windows
+
+Before installing the Java Development Kit, check if a Java version is already installed on Windows:
+
+```bash
+java -version
+```
+
+The command outputs the Java version on your system. If Java isn't installed, the output is a message stating that Java isn't recognized as an internal or external command.
+
+### Download Java for Windows
+
+1. Using your preferred web browser, navigate to the Oracle Java Downloads page
+2. On the Downloads page, click the x64 Installer download link under the Windows category
+3. At the time of writing this documentation, Java version 17 is the latest long-term support Java version
+4. Wait for the download to complete
+
+### Install Java
+
+After downloading the installation file, proceed with installing Java on your Windows system:
+
+**Step 1:** Run the Downloaded File
+* Double-click the downloaded file to start the installation
+
+**Step 2:** Configure the Installation Wizard
+* Click Next to proceed to the next step
+* Choose the destination folder for the Java installation files or stick to the default path
+* Click Next to proceed
+* Wait for the wizard to finish the installation process until the Successfully Installed message appears
+* Click Close to exit the wizard
+
+## What is Java?
+
+Java is one of the most popular and widely used programming languages in the world. It was developed by James Gosling and his team at Sun Microsystems in 1995, and later acquired by Oracle Corporation. Java is an object-oriented, platform-independent, and secure programming language used for developing a wide range of applications — from desktop and mobile apps to web-based and enterprise solutions.
+
+### Key Features of Java
+
+**1. Simple and Easy to Learn**
+Java's syntax is clean and straightforward, making it easy for beginners to learn and understand. It removes many complex features of other languages like pointers and multiple inheritance.
+
+**2. Object-Oriented Programming (OOP)**
+Everything in Java is treated as an object. This promotes code reusability, flexibility, and easy maintenance through concepts like classes, objects, inheritance, polymorphism, abstraction, and encapsulation.
+
+**3. Platform Independent**
+One of Java's most important features is its "Write Once, Run Anywhere" (WORA) capability. Java programs are compiled into bytecode, which can run on any machine that has the Java Virtual Machine (JVM).
+
+**4. Robust and Secure**
+Java provides strong memory management, exception handling, and security features such as runtime checking and access control to ensure safe execution of code.
+
+**5. Multithreaded**
+Java supports multithreading, allowing multiple parts of a program to run simultaneously. This improves performance, especially in applications like gaming or animations.
+
+**6. High Performance**
+Java's performance is enhanced by its Just-In-Time (JIT) compiler, which converts bytecode into native machine code at runtime.
+
+**7. Distributed and Network-Centric**
+Java is designed for networked environments, making it suitable for building distributed applications that can communicate over networks easily.
+
+**8. Rich API and Libraries**
+Java offers a vast collection of built-in classes and methods that simplify development — including libraries for data structures, networking, GUI development, and database connectivity.
+
+---
+
+# CHAPTER 2: JAVA FUNDAMENTALS
+
+## Variables and Data Types
+
+### What are Variables?
+
+A variable is a container that holds data that can be changed during the execution of a program. In Java, every variable must be declared with a data type.
+
+### Data Types in Java
+
+Java has two categories of data types:
+
+**Primitive Data Types:**
+* **byte** - 8-bit integer (-128 to 127)
+* **short** - 16-bit integer (-32,768 to 32,767)
+* **int** - 32-bit integer (-2³¹ to 2³¹-1)
+* **long** - 64-bit integer (-2⁶³ to 2⁶³-1)
+* **float** - 32-bit floating point
+* **double** - 64-bit floating point
+* **char** - 16-bit Unicode character
+* **boolean** - true or false
+
+**Reference Data Types:**
+* String, Arrays, Classes, Interfaces
+
+### Example Code for Variables and Data Types
+
+```java
+// Example program to demonstrate variables in Java
+public class VariablesExample {
+    public static void main(String[] args) {
+        
+        // Declaring and initializing variables
+        int age = 21;                  // Integer variable
+        double salary = 55000.75;      // Floating-point variable
+        char grade = 'A';              // Character variable
+        boolean isJavaFun = true;      // Boolean variable
+        String name = "Lavanya";       // String variable
+        
+        // Displaying the values of variables
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Salary: " + salary);
+        System.out.println("Grade: " + grade);
+        System.out.println("Is Java Fun? " + isJavaFun);
+    }
+}
+```
+
+## Taking User Input
+
+Java provides the `Scanner` class to read user input from the console.
+
+### Example Code for User Input
+
+```java
+package com.internshala.javaapp;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        String name;
+        int population;
+        float populationDensity;
+        double GDP;
+        char currency; // '$'
+        boolean isSecular;
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Enter your country name: ");
+        name = scanner.nextLine();
+        
+        System.out.println("Enter population: ");
+        population = scanner.nextInt();
+        
+        System.out.println("Enter currency symbol: ");
+        currency = scanner.next().charAt(0);
+        
+        System.out.println("Your country name is: " + name);
+        System.out.println("The population of the country is: " + population);
+        System.out.println("The currency symbol is: " + currency);
+        
+        scanner.close();
+    }
+}
+```
+
+## Operators in Java
+
+Operators are symbols that perform operations on variables and values.
+
+### Types of Operators
+
+**1. Arithmetic Operators**
+* `+` Addition
+* `-` Subtraction
+* `*` Multiplication
+* `/` Division
+* `%` Modulus (remainder)
+
+**2. Relational Operators**
+* `==` Equal to
+* `!=` Not equal to
+* `>` Greater than
+* `<` Less than
+* `>=` Greater than or equal to
+* `<=` Less than or equal to
+
+**3. Logical Operators**
+* `&&` Logical AND
+* `||` Logical OR
+* `!` Logical NOT
+
+**4. Assignment Operators**
+* `=` Simple assignment
+* `+=` Add and assign
+* `-=` Subtract and assign
+* `*=` Multiply and assign
+* `/=` Divide and assign
+
+**5. Increment/Decrement Operators**
+* `++` Increment by 1
+* `--` Decrement by 1
+
+## Conditional Statements
+
+Conditional statements allow you to execute different code based on different conditions.
+
+### If-Else Statement
+
+```java
+public class ConditionalExample {
+    public static void main(String[] args) {
+        int age = 18;
+        
+        if (age >= 18) {
+            System.out.println("You are eligible to vote");
+        } else {
+            System.out.println("You are not eligible to vote");
+        }
+    }
+}
+```
+
+### Switch Statement
+
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int day = 3;
+        
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            default:
+                System.out.println("Invalid day");
+        }
+    }
+}
+```
+
+## Loops (Iterators)
+
+Loops are used to execute a block of code repeatedly.
+
+### For Loop
+
+```java
+public class ForLoopExample {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Count: " + i);
+        }
+    }
+}
+```
+
+### While Loop
+
+```java
+public class WhileLoopExample {
+    public static void main(String[] args) {
+        int i = 1;
+        while (i <= 5) {
+            System.out.println("Count: " + i);
+            i++;
+        }
+    }
+}
+```
+
+### Do-While Loop
+
+```java
+public class DoWhileExample {
+    public static void main(String[] args) {
+        int i = 1;
+        do {
+            System.out.println("Count: " + i);
+            i++;
+        } while (i <= 5);
+    }
+}
+```
+
+## Arrays
+
+An array is a container object that holds a fixed number of values of a single type.
+
+### Example Program for 1D Array
+
+```java
+package com.internshala.javaapp;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        // WAP to print all numbers in array along with sum of all elements
+        
+        // Index  0   1   2   3
+        int[] myFirstArray = { 20, 19, 48, 7 };
+        int sum = 0;
+        
+        for (int i = 0; i < myFirstArray.length; i++) {
+            sum += myFirstArray[i];
+            System.out.println(myFirstArray[i]);
+        }
+        System.out.println("Sum of firstArray: " + sum);
+        
+        // Second way to declare an Array
+        float[] mySecondArray = new float[3];
+        mySecondArray[0] = 34.2f;
+        mySecondArray[1] = 4.6f;
+        mySecondArray[2] = 78.11f;
+        
+        float sumOfNumbers = 0;
+        for (float num: mySecondArray) {  // For Each Loop
+            sumOfNumbers += num;
+            System.out.println(num);
+        }
+        System.out.println("Sum of secondArray: " + sumOfNumbers);
+    }
+}
+```
+
+## Strings
+
+A String is a sequence of characters. In Java, strings are objects.
+
+### Example Code for String
+
+```java
+package com.internshala.javaapp;
+
+public class Main {
+    public static void main(String[] args) {
+        // String Handling
+        // Index  0  1  2  3  4  5  6  --> length of 7
+        char[] myArray = { 'W', 'e', 'l', 'c', 'o', 'm', 'e' };
+        
+        // Using Literals to create String
+        String firstString = "Welcome";   // S1
+        String secondString = "Welcome";  // S1
+        
+        // Using new keyword
+        String thirdString = new String("Welcome");  // S2
+        
+        System.out.println(firstString == secondString);
+        // Compare Two Objects .. true .. S1 == S1
+        
+        System.out.println(firstString == thirdString);
+        // Compare Two Objects .. false
+        
+        System.out.println(firstString.equals(thirdString));
+        // Compare two values .. true "Welcome" == "Welcome"
+        
+        System.out.println(myArray.length);        // 7
+        System.out.println(firstString.length());  // 7
+        System.out.println(firstString.charAt(6)); // e
+        System.out.println(firstString.toUpperCase());  // WELCOME
+        System.out.println(firstString.toLowerCase());  // welcome
+        System.out.println(firstString.contains("come"));  // true
+        System.out.println(firstString + " to Internshala");
+        // Welcome to Internshala
+        System.out.println(firstString.concat(" to Internshala"));
+        // Welcome to Internshala
+    }
+}
+```
+
+## Methods in Java
+
+A method is a block of code or collection of statements that performs a specific task. It provides code reusability.
+
+### What is a Method?
+
+A method is a way to perform some task. It is used to achieve the reusability of code. We write a method once and use it many times.
+
+### Method Signature
+
+Every method has a method signature that includes:
+* Access Specifier (public, private, protected, default)
+* Return Type (void, int, String, etc.)
+* Method Name
+* Parameter List
+
+### Access Specifiers
+
+* **Public:** The method is accessible by all classes
+* **Private:** The method is accessible only in the class in which it is defined
+* **Protected:** The method is accessible within the same package or subclasses in a different package
+* **Default:** Visible only from the same package
+
+### Types of Methods
+
+**1. Predefined Methods**
+
+Methods that are already defined in Java class libraries.
+
+```java
+public class Demo {
+    public static void main(String[] args) {
+        // using the max() method of Math class
+        System.out.print("The maximum number is: " + Math.max(9, 7));
+    }
+}
+```
+
+**2. User-defined Methods**
+
+Methods written by the user or programmer.
+
+```java
+public class EvenOddExample {
+    // User defined method
+    public static void findEvenOdd(int num) {
+        // Method body
+        if(num % 2 == 0)
+            System.out.println(num + " is even");
+        else
+            System.out.println(num + " is odd");
+    }
+    
+    public static void main(String[] args) {
+        findEvenOdd(10);  // Calling the method
+        findEvenOdd(15);
+    }
+}
+```
+
+## Exception Handling
+
+Exception Handling in Java is a powerful mechanism to handle runtime errors so that the normal flow of the application can be maintained.
+
+### What is an Exception?
+
+An exception is an event that disrupts the normal flow of the program. It is an object which is thrown at runtime.
+
+### Advantage of Exception Handling
+
+The core advantage of exception handling is to maintain the normal flow of the application. Without exception handling, if an exception occurs, the rest of the code will not be executed.
+
+### Example of Exception Handling
+
+```java
+public class JavaExceptionExample {
+    public static void main(String args[]) {
+        try {
+            // Code that may raise exception
+            int data = 100 / 0;
+        } catch(ArithmeticException e) {
+            System.out.println(e);
+        }
+        // Rest code of the program
+        System.out.println("rest of the code...");
+    }
+}
+```
+
+---
+
+# CHAPTER 3: OBJECT-ORIENTED PROGRAMMING
+
+## Classes and Objects
+
+### What is a Class?
+
+A class in Java is a blueprint or template that defines the structure and behavior (data and methods) of objects. It represents a group of related variables (called fields) and functions (called methods) that operate on those variables.
+
+**In simple words:** A class is like a "design" or "plan," and an object is the "real thing" built from that design.
+
+### Example of Class
+
+```java
+class Car {
+    // Fields
+    String brand;
+    String color;
+    int speed;
+    
+    // Method
+    void displayDetails() {
+        System.out.println("Brand: " + brand);
+        System.out.println("Color: " + color);
+        System.out.println("Speed: " + speed + " km/h");
+    }
+}
+```
+
+### What is an Object?
+
+An object is an instance of a class — it is created in memory when you use the `new` keyword. Each object has its own copy of the class's variables and can use its methods.
+
+### Example of Object
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        // Creating an object of Car class
+        Car myCar = new Car();
+        
+        // Assigning values
+        myCar.brand = "Tesla";
+        myCar.color = "Red";
+        myCar.speed = 120;
+        
+        // Calling method
+        myCar.displayDetails();
+    }
+}
+```
+
+## Constructors
+
+A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created.
+
+### Example of Constructor
+
+```java
+// Create a Main class
+public class Main {
+    int x;  // Create a class attribute
+    
+    // Create a class constructor for the Main class
+    public Main() {
+        x = 5;  // Set the initial value for the class attribute x
+    }
+    
+    public static void main(String[] args) {
+        Main myObj = new Main();  // Create an object (calls the constructor)
+        System.out.println(myObj.x);  // Print the value of x
+    }
+}
+// Outputs 5
+```
+
+## Getters and Setters
+
+The get method returns the variable value, and the set method sets the value.
+
+### Example of Getter and Setter
+
+```java
+public class Person {
+    private String name;  // private = restricted access
+    
+    // Getter
+    public String getName() {
+        return name;
+    }
+    
+    // Setter
+    public void setName(String newName) {
+        this.name = newName;
+    }
+}
+```
+
+## Inheritance in Java
+
+Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object. It is an important part of OOPs (Object Oriented programming system).
+
+### Terms Used in Inheritance
+
+* **Class:** A template or blueprint from which objects are created
+* **Sub Class/Child Class:** A class which inherits another class
+* **Super Class/Parent Class:** The class from where a subclass inherits features
+* **Reusability:** Mechanism to reuse fields and methods of existing class
+
+### Syntax of Java Inheritance
+
+```java
+class Subclass-name extends Superclass-name {
+    // methods and fields
+}
+```
+
+The `extends` keyword indicates that you are making a new class that derives from an existing class.
+
+## Polymorphism
+
+Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
+
+Inheritance lets us inherit attributes and methods from another class. Polymorphism uses those methods to perform different tasks. This allows us to perform a single action in different ways.
+
+### Example of Polymorphism
+
+```java
+class Animal {
+    public void animalSound() {
+        System.out.println("The animal makes a sound");
+    }
+}
+
+class Pig extends Animal {
+    public void animalSound() {
+        System.out.println("The pig says: wee wee");
+    }
+}
+
+class Dog extends Animal {
+    public void animalSound() {
+        System.out.println("The dog says: bow wow");
+    }
+}
+```
+
+## Abstract Classes and Methods
+
+Data abstraction is the process of hiding certain details and showing only essential information to the user.
+
+### The Abstract Keyword
+
+* **Abstract class:** A restricted class that cannot be used to create objects (must be inherited)
+* **Abstract method:** Can only be used in an abstract class, and it does not have a body
+
+### Example of Abstract Class
+
+```java
+abstract class Animal {
+    public abstract void animalSound();
+    
+    public void sleep() {
+        System.out.println("Zzz");
+    }
+}
+
+// Animal myObj = new Animal(); // will generate an error
+```
+
+## Interfaces
+
+An interface is a completely "abstract class" that is used to group related methods with empty bodies.
+
+### Example of Interface Declaration
+
+```java
+// Interface
+interface Animal {
+    public void animalSound();  // interface method (does not have a body)
+    public void run();          // interface method (does not have a body)
+}
+```
+
+### Implementing an Interface
+
+To access the interface methods, the interface must be "implemented" by another class with the `implements` keyword.
+
+```java
+// Interface
+interface Animal {
+    public void animalSound();
+    public void sleep();
+}
+
+// Pig "implements" the Animal interface
+class Pig implements Animal {
+    public void animalSound() {
+        // The body of animalSound() is provided here
+        System.out.println("The pig says: wee wee");
+    }
+    
+    public void sleep() {
+        // The body of sleep() is provided here
+        System.out.println("Zzz");
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Pig myPig = new Pig();  // Create a Pig object
+        myPig.animalSound();
+        myPig.sleep();
+    }
+}
+```
+
+---
+
+# CHAPTER 4: PROJECT OVERVIEW
 
 ## Introduction
 
@@ -407,7 +1023,7 @@ ShopSphere follows a layered architecture pattern:
 
 ---
 
-# CHAPTER 2: PROJECT STRUCTURE AND DESIGN
+# CHAPTER 5: PROJECT STRUCTURE AND DESIGN
 
 ## Project Structure
 
@@ -658,7 +1274,7 @@ REST API endpoints:
 
 ---
 
-# CHAPTER 3: IMPLEMENTATION
+# CHAPTER 6: IMPLEMENTATION
 
 ## Application Setup
 
@@ -1064,7 +1680,7 @@ public class OrderService {
 
 ---
 
-# CHAPTER 4: FUNCTIONALITY AND FEATURES
+# CHAPTER 7: FUNCTIONALITY AND FEATURES
 
 ## CLI Interface
 
@@ -1304,7 +1920,7 @@ The application implements comprehensive error handling:
 
 ---
 
-# CHAPTER 5: TESTING AND DEPLOYMENT
+# CHAPTER 8: TESTING AND DEPLOYMENT
 
 ## Running the Application
 
@@ -1676,7 +2292,7 @@ Search Results (2 found):
 
 ---
 
-# CHAPTER 6: CONCLUSION AND FUTURE SCOPE
+# CHAPTER 9: CONCLUSION AND FUTURE SCOPE
 
 ## Conclusion
 
@@ -1877,26 +2493,42 @@ The knowledge and experience gained from this project are directly applicable to
 
 | S.No | Figure Description | Page Reference |
 |------|-------------------|----------------|
-| 01. | Project Architecture Diagram | Chapter 1 |
-| 02. | Database Schema Design | Chapter 2 |
-| 03. | Spring Boot Project Structure | Chapter 2 |
-| 04. | MVC Architecture Flow | Chapter 2 |
-| 05. | Product Management Module | Chapter 3 |
-| 06. | User Management Module | Chapter 3 |
-| 07. | Shopping Cart Module | Chapter 3 |
-| 08. | Order Processing Module | Chapter 3 |
-| 09. | CLI Main Menu | Chapter 4 |
-| 10. | Swagger UI Interface | Chapter 4 |
-| 11. | Product API Endpoints | Chapter 4 |
-| 12. | Cart API Endpoints | Chapter 4 |
-| 13. | MongoDB Collections Structure | Chapter 4 |
-| 14. | Sample Product Output | Chapter 5 |
-| 15. | Sample Order Output | Chapter 5 |
-| 16. | Order History View | Chapter 5 |
-| 17. | MongoDB Compass View | Chapter 5 |
-| 18. | Postman Testing Example | Chapter 5 |
-| 19. | Error Handling Example | Chapter 5 |
-| 20. | Application Startup Logs | Chapter 5 |
+| 01. | Java Installation Steps | Chapter 1 |
+| 02. | Java Version Checking | Chapter 1 |
+| 03. | Variables and Data Types Example | Chapter 2 |
+| 04. | User Input Example | Chapter 2 |
+| 05. | Operators in Java | Chapter 2 |
+| 06. | Conditional Statements | Chapter 2 |
+| 07. | Loop Examples | Chapter 2 |
+| 08. | Array Examples | Chapter 2 |
+| 09. | String Handling | Chapter 2 |
+| 10. | Methods Example | Chapter 2 |
+| 11. | Exception Handling | Chapter 2 |
+| 12. | Class and Object Example | Chapter 3 |
+| 13. | Constructor Example | Chapter 3 |
+| 14. | Inheritance Example | Chapter 3 |
+| 15. | Polymorphism Example | Chapter 3 |
+| 16. | Interface Example | Chapter 3 |
+| 17. | Project Architecture Diagram | Chapter 4 |
+| 18. | Database Schema Design | Chapter 5 |
+| 19. | Spring Boot Project Structure | Chapter 5 |
+| 20. | MVC Architecture Flow | Chapter 5 |
+| 21. | Product Management Module | Chapter 6 |
+| 22. | User Management Module | Chapter 6 |
+| 23. | Shopping Cart Module | Chapter 6 |
+| 24. | Order Processing Module | Chapter 6 |
+| 25. | CLI Main Menu | Chapter 7 |
+| 26. | Swagger UI Interface | Chapter 7 |
+| 27. | Product API Endpoints | Chapter 7 |
+| 28. | Cart API Endpoints | Chapter 7 |
+| 29. | MongoDB Collections Structure | Chapter 7 |
+| 30. | Sample Product Output | Chapter 8 |
+| 31. | Sample Order Output | Chapter 8 |
+| 32. | Order History View | Chapter 8 |
+| 33. | MongoDB Compass View | Chapter 8 |
+| 34. | Postman Testing Example | Chapter 8 |
+| 35. | Error Handling Example | Chapter 8 |
+| 36. | Application Startup Logs | Chapter 8 |
 
 ---
 
